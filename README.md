@@ -72,6 +72,7 @@ When creating a bucket test, you can specify the following arguments:
 * `group` - the name of the column which the data frame is grouped by
 * `x_axis` (default: `date`) - specifies the values on the x_axis for the chart
 * `custom_title` (default: `{variable} per {group}`) - specifies the title for the chart
+* `custom_day_interval` (default: 1) - specifies the difference between the dates on the x-axis
 
 For the `render()` method, those options can be specified to customize your chart:
 
