@@ -51,10 +51,10 @@ class BucketTest:
 
     def __set_locator_and_formatter__(self, ax):
         # Major locator customization
-        #if self.custom_day_interval != 1:
-        #    ax.xaxis.set_ymajor_locator(mdates.DayLocator(interval=self.custom_day_interval))
-        #else:
-        ax.xaxis.set_major_locator(mdates.DayLocator(interval=1))
+        if self.custom_day_interval != 1:
+            ax.xaxis.set_ymajor_locator(mdates.DayLocator(interval=self.custom_day_interval))
+        else:
+            ax.xaxis.set_major_locator(mdates.DayLocator(interval=1))
         ax.xaxis.set_major_formatter(mdates.DateFormatter('%Y-%m-%d'))
 
     def compute_pvalues(self, alpha=0.01):
