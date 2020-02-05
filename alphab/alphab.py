@@ -23,7 +23,7 @@ class BucketTest:
         self.custom_day_interval = custom_day_interval
         self.custom_ylabel = custom_ylabel
 
-    def render(self, figure_size_x=30, figure_size_y=10, line_width=3, title_font_size=16, legend_font_size=14,
+    def render(self, figure_size_x=12, figure_size_y=5, line_width=3, title_font_size=16, legend_font_size=14,
                rotation=30):
         """ Render renders the charts representing the bucket test """
 
