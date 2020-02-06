@@ -1,0 +1,4 @@
+# IDE
+.idea/*
+example/.DS_Store
+example/.ipynb_checkpoints
