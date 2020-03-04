@@ -110,8 +110,11 @@ You can contribute by forking this repository, looking through the [issues](http
 
 ## Contributors
 
-* The method for checking statistical significance was highly inspired by the work of **Paulina Gralak [@Loczi94](https://github.com/Loczi94)**.
+* **Brendan Le Glaunec [@Ullaakut](https://github.com/Ullaakut)** - Thank you for your support in reviewing the code and the documentation and motivating me to work on this project!
+* The method for checking statistical significance was highly inspired by the work of **Paulina Gralak [@Loczi94](https://github.com/Loczi94)**
+* **Katarzyna Pudełko [@bckatarzyna](https://github.com/bckatarzyna)** - Thank you for code reviews!
+* **Martyna Urbanek-Trzeciak [@martynaut](https://github.com/martynaut)** - Thank you for code reviews!
 
-Thanks a lot!
+Thanks a lot to all of you!
 
 The creator and maintainer: Julia Jakubczak [@veliona](https://github.com/veliona)
